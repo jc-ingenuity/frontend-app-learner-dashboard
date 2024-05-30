@@ -38,6 +38,7 @@ export const ExpandedHeader = () => {
         >
           {formatMessage(messages.course)}
         </Button>
+        {/*
         <Button
           as="a"
           href={urls.programsUrl()}
@@ -46,6 +47,7 @@ export const ExpandedHeader = () => {
         >
           {formatMessage(messages.program)}
         </Button>
+        */}
         <Button
           as="a"
           href={urls.baseAppUrl(courseSearchUrl)}
